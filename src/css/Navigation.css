@@ -1,0 +1,67 @@
+/* * {
+    box-sizing: border-box;
+} */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.logo {
+    margin: 0;
+    font-size: 3em;
+}
+.main-nav {
+    margin-top: 5px;
+}
+.logo a {
+    color: #FFE400;
+}
+.logo a, .main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+li {
+    display: inline-flex;
+}
+.main-nav a {
+    /* display: flex; */
+    color: #14A76C;
+    font-size: .99em;
+}
+.main-nav a:hover {
+    color:  #FF652F;
+  text-decoration: none;
+}
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    /* border: 1px solid #A2A2A2; */
+    background-color: #232323;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+/* =================================
+  Media Queries
+==================================== */
+@Jinkok Media (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+    }
+    }
+}
+@Jinkok Media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

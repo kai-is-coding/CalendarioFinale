@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+body{
+  margin:0;
+  font-family: 'Sigmar One', cursive;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background-color: #272727;
+}
+.react-calendar{
+  position:relative;
+  top:1vh;
+  margin:auto;
+}
+.react-calendar{
+  margin-top: 9vh;
+  /* margin-bottom: 2vh; */
+  width:80vw;
+  max-width:100%;
+  background:#f0f2ac;
+  /* border:4px solid #a0a096; */
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 10px #f0f2ac;
+  font-family: 'Sigmar One', cursive;
+  line-height:1.125em;
+}
+.react-calendar,.react-calendar *,.react-calendar *:before,.react-calendar *:after{
+  box-sizing:border-box;
+}
+.react-calendar button{
+  margin:0;
+  border:0;
+  outline:none;
+}
+.react-calendar button:enabled:hover{
+  cursor:pointer;
+}
+.react-calendar__navigation{
+  height:44px;
+  margin-bottom:1em;
+}
+.react-calendar__navigation button{
+  min-width:44px;
+  background:none;
+  font-size: 2em;
+  font-family: 'Sigmar One', cursive;
+}
+.react-calendar__navigation button:enabled:hover,.react-calendar__navigation button:enabled:focus{
+  background-color:#14a76c;
+  border-radius: 5px;
+}
+.react-calendar__month-view__weekdays{
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:2em;
+  font-family: 'Sigmar One', cursive;
+}
+.react-calendar__month-view__weekdays__weekday{
+  padding:0.5em;
+}
+.react-calendar__month-view__days__day--weekend{
+  color: #FF652F;
+}
+.react-calendar__month-view__days__day--neighboringMonth{
+  color:#757575;
+}
+.react-calendar__tile{
+  max-width:100%;
+  text-align:center;
+  padding:0.75em 0.5em;
+  background:none;
+  font-size: 2em;
+  font-family: 'Sigmar One', cursive;
+}
+.react-calendar__tile:disabled{
+  background-color:#14a76c;
+  border-radius: 20px;
+}
+.react-calendar__tile:enabled:hover,.react-calendar__tile:enabled:focus{
+  background-color:#14a76c;
+  border-radius: 20px;
+}
+.dateTime {
+  margin: auto 5px;
+}
+.dateTopBar{
+  display: flex;
+  background-color: #272727;
+}
+#Time, #title, #click  {
+  width: -webkit-fill-available;
+  padding: 5px;
+  color: #6442d2;
+}
+#click:hover {
+  color: #FF652F;
+}
+#Time {
+  /* margin-left: 30px; */
+}
+h1{
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.5em;
+  color: #6442d2;
+}
+#title {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 2vh;
+}
+#click {
+  font-size: 1.5em;
+  text-align: end;
+  /* margin-right: 30px; */
+}
+#timeTable {
+margin: 5vh auto 0vh;
+color: #747474;
+/* position: relative;
+top: 5vh; */
+/* border: 1px solid #ff652f; */
+text-align: center;
+font-size: 1.5em;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(13, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.timeTitle {
+  font-size: 1.5em;
+  color: #ff652f;
+}
+.highlight {
+  background-color: #14a76c;
+}
+footer {
+  background-color: #232323;
+  color: #FF652F;
+  margin: auto 5px;
+}
+#back {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #272727;
+}
+#arrow {
+  color: #14a76c;
+  margin-left: 5px;
+}
+#arrow:hover {
+  color: #FF652F;
+}
+#form {
+  position: relative;
+  top: 1vh;
+  width: 50%;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  /* border: 2px solid #ff652f; */
+}
+input {
+  border: 0;
+  /* border-bottom: 1px, solid, black; */
+  margin: 10px;
+  width: 45vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sigmar One', cursive;
+}
+::placeholder{
+  color: #272727;
+}
+#time::before {
+  content: "Time";
+  color: #272727;
+}
+#timeTo::before {
+  content: "TimeTo";
+  color: #272727;
+}
+#time::before, #timeTo::before {
+  padding-left: 10vw;
+}
+#submit:hover {
+  color: #FF652F;
+}
+#infoContainer {
+  display: flex;
+  flex-direction: column;
+  /* height: -webkit-fill-available; */
+  margin-bottom: 82vh;
+  /* border: 1px solid red; */
+}
+/* #details, #map {
+  height: 50%;
+} */
+#details {
+  display: table;
+  font-size: 1.5em;
+  /* margin-left: 10px; */
+  /* border: 1px solid yellow; */
+  /* padding-top: 25vh; */
+  color: #6442d2;
+  /* padding-right: 10vw; */
+}
+#details > div {
+  display: table-row;
+}
+#details > div > *{
+  display: table-cell;
+  padding: 5px;
+}
+#details .label {
+  font-weight: bold;
+  text-align: right;
+}
+#map {
+  /* border: 1px solid blue; */
+  margin: 5px;
+  /* width: 100%; */
+}
+/* #map > div > div:nth-child(1) > div {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+} */
+#notesContainer {
+  width: 50%;
+  /* margin-top: 20vh; */
+  margin-bottom:  10vh auto;
+  color: #6442d2;
+}
+/*Login and Sign Up*/
+/*Login and Sign Up*/
+/*Login and Sign Up*/
+.App{
+  margin-top: 25vh;
+  margin-bottom: 22vh;
+}
+form{
+  margin: 10px 35px;
+}
+input{
+  border:none;
+}
+a{
+    color: #2C5D63;
+    text-decoration: none;
+}
+a:hover{
+  color:  #D10000;
+  text-decoration: none;
+}
+input[type=email], input[type=password] {
+  width: 240px;
+  height: 38px;
+  border:1px solid #CBC9C9;
+  padding-left:5px;
+  margin-top:3px;
+  border-radius:2px 2px 12px 12px;
+  -webkit-border-radius:2px 2px 12px 12px;
+  -moz-border-radius:2px 2px 12px 12px;
+  text-align: center;
+  font-size: 20px;
+}
+.pressbutton{
+  width: 240px;
+  height: 38px;
+  background-color:#F75940;
+  color:#f8f8f8;
+  border-radius:2px 2px 12px 12px;
+  -webkit-border-radius:2px 2px 12px 12px;
+  -moz-border-radius:2px 2px 12px 12px;
+  font-size: 20px;
+}
+input[type=submit]:hover{
+  background-color:#607d8b;
+  color:#f8f8f8;
+  cursor:pointer;
+}
+.wrapper{
+  margin:50px auto;
+  width: 343px;
+  height: 280px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}
+.wrapper h1{
+  color:#f4f4f4;
+  letter-spacing:8px;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.wrapper hr{
+  opacity:0.2;
+}
+.crtacc{
+  margin-left:75px;
+}
+input:focus {
+    outline:none;
+}
+.aboutAndContact > h1, .aboutAndContact > p {
+  margin-left: 10px;
+  margin-bottom: 23vh;
+}
+.aboutAndContact > h1{
+  font-size: 2.5em;
+  color: #FFE400;
+}
+.aboutAndContact > p {
+  color: #6442d2;
+  font-size: 2em;
+}
+.personContainer {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  margin: auto 30px;
+  margin-bottom: 20vh;
+}
+.person > span {
+  color: #6442d2;
+  font-size: 2em;
+}
+.person > img {
+  width: 20vw;
+  height: 30vh;
+  border-radius: 50%;
+}
+.person > a {
+  color: #FF652F;
+  font-size: 1.5em;
+}
+.person > a:hover {
+  color: #14a76c;
+}
+
+#specialChild{
+  color:#14A76C
+}
+#specialChild:hover {
+  color:#F75940
+}
