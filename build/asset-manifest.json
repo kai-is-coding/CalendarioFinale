@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/CalendarProjectFinal/static/css/main.aa000828.chunk.css",
-    "main.js": "/CalendarProjectFinal/static/js/main.0054899b.chunk.js",
-    "main.js.map": "/CalendarProjectFinal/static/js/main.0054899b.chunk.js.map",
-    "runtime-main.js": "/CalendarProjectFinal/static/js/runtime-main.e83cb1cf.js",
-    "runtime-main.js.map": "/CalendarProjectFinal/static/js/runtime-main.e83cb1cf.js.map",
-    "static/js/2.4e1499aa.chunk.js": "/CalendarProjectFinal/static/js/2.4e1499aa.chunk.js",
-    "static/js/2.4e1499aa.chunk.js.map": "/CalendarProjectFinal/static/js/2.4e1499aa.chunk.js.map",
-    "index.html": "/CalendarProjectFinal/index.html",
-    "precache-manifest.53fdd3201de7668a45cb3ed53eac5e89.js": "/CalendarProjectFinal/precache-manifest.53fdd3201de7668a45cb3ed53eac5e89.js",
-    "service-worker.js": "/CalendarProjectFinal/service-worker.js",
-    "static/css/main.aa000828.chunk.css.map": "/CalendarProjectFinal/static/css/main.aa000828.chunk.css.map",
-    "static/js/2.4e1499aa.chunk.js.LICENSE": "/CalendarProjectFinal/static/js/2.4e1499aa.chunk.js.LICENSE"
+    "main.css": "/CalendarioFinale/static/css/main.6a88ff95.chunk.css",
+    "main.js": "/CalendarioFinale/static/js/main.5af32400.chunk.js",
+    "main.js.map": "/CalendarioFinale/static/js/main.5af32400.chunk.js.map",
+    "runtime-main.js": "/CalendarioFinale/static/js/runtime-main.37690892.js",
+    "runtime-main.js.map": "/CalendarioFinale/static/js/runtime-main.37690892.js.map",
+    "static/js/2.1af99006.chunk.js": "/CalendarioFinale/static/js/2.1af99006.chunk.js",
+    "static/js/2.1af99006.chunk.js.map": "/CalendarioFinale/static/js/2.1af99006.chunk.js.map",
+    "index.html": "/CalendarioFinale/index.html",
+    "precache-manifest.3faeaf4926fe89af19b2e258e79eb3d1.js": "/CalendarioFinale/precache-manifest.3faeaf4926fe89af19b2e258e79eb3d1.js",
+    "service-worker.js": "/CalendarioFinale/service-worker.js",
+    "static/css/main.6a88ff95.chunk.css.map": "/CalendarioFinale/static/css/main.6a88ff95.chunk.css.map",
+    "static/js/2.1af99006.chunk.js.LICENSE": "/CalendarioFinale/static/js/2.1af99006.chunk.js.LICENSE",
+    "static/media/SEi35_Hassan_HeadshotBW_022.jpg": "/CalendarioFinale/static/media/SEi35_Hassan_HeadshotBW_022.5a816c5f.jpg",
+    "static/media/SEi35_IvanW_HeadshotBW_027.jpg": "/CalendarioFinale/static/media/SEi35_IvanW_HeadshotBW_027.51eb7f9d.jpg",
+    "static/media/SEi35_KaiY_HeadshotBW_036.jpg": "/CalendarioFinale/static/media/SEi35_KaiY_HeadshotBW_036.dd033dad.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e83cb1cf.js",
-    "static/js/2.4e1499aa.chunk.js",
-    "static/css/main.aa000828.chunk.css",
-    "static/js/main.0054899b.chunk.js"
+    "static/js/runtime-main.37690892.js",
+    "static/js/2.1af99006.chunk.js",
+    "static/css/main.6a88ff95.chunk.css",
+    "static/js/main.5af32400.chunk.js"
   ]
 }
